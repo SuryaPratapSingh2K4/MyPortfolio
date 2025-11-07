@@ -1,0 +1,22 @@
+import React from 'react'
+import logo from '../assets/Surya-image.jpeg'
+
+const Hero:React.FC = () => (
+    <section id='hero' className='grid md:grid-cols-2 gap-20 items-center p-16'>
+        <div className='flex flex-col gap-8'>
+            <h1 className='text-5xl bg-gradient-to-r from-purple-300 to-indigo-300 rounded-md font-semibold bg-clip-text text-transparent leading-[1.1]'>
+                Hi, I’m Surya Pratap Singh — a Frontend & MERN Developer.
+            </h1>
+            <p className='text-s'>I specialize in React.js, Redux Toolkit, and Tailwind CSS, crafting responsive UIs that merge performance and design. Currently, I’m exploring advanced backend integration with Node.js, Express.js, and MongoDB to deliver complete full-stack experiences.</p>
+            <div className='flex flex-row gap-4'>
+                <a href="" className='text-white bg-gradient-to-r from-purple-600 to-indigo-600 px-4 py-2 rounded-md font-semibold'>View Projects</a>
+                <a href="" className='text-white bg-gradient-to-r from-purple-600 to-indigo-600 px-4 py-2 rounded-md font-semibold'>Download Resume</a>
+            </div>
+        </div>
+        <div className='ml-20 rounded-lg border border-purple-900 shadow-2xl'>
+            <img src={logo} alt="" className='w-full h-72 rounded-lg object-cover object-[75%,25%] '/>
+        </div>
+    </section>
+)
+
+export default Hero
