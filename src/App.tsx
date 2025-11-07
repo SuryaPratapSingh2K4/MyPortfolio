@@ -1,6 +1,8 @@
-import Hero from "./components/Hero"
+import Hero from "./sections/Hero"
 import Navbar from "./components/Navbar"
 import React from "react"
+import About from "./sections/About"
+import Experience from "./sections/Experience"
 const App:React.FC = () => {
 
   return (
@@ -9,6 +11,8 @@ const App:React.FC = () => {
         <Navbar/>
         <main className="relative">
           <Hero/>
+          <About/>
+          <Experience/>
         </main>
       
     </div>
