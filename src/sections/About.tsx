@@ -1,9 +1,10 @@
+import { User2 } from 'lucide-react'
 import React from 'react'
 
 const About:React.FC = () => {
     return (
         <section id='about' className='p-8 bg-black/40 border border-purple-800 rounded-lg ml-16 mr-16 mt-8'>
-            <h1 className='text-4xl text-purple-300 mb-4 font-semibold'>About Me</h1>
+            <h1 className='text-4xl text-purple-300 mb-4 font-semibold flex items-center gap-2'> <User2 size={30} className='mt-1 text-purple-400'/> About Me</h1>
             <p className=''>
                 I’m a B.Tech IT student at Odisha University of Technology and Research (2021–2025),
                 driven by the idea of transforming logic into impactful digital products. Over the

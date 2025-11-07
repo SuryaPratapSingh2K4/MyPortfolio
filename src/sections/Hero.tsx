@@ -13,8 +13,8 @@ const Hero:React.FC = () => (
                 <a href="" className='text-white bg-black/40 border border-purple-900 px-4 py-2 rounded-md font-semibold hover:scale-105 hover:bg-purple-700/20'>Download Resume</a>
             </div>
         </div>
-        <div className='w-[450px] h-72 lg:ml-20 rounded-lg border border-purple-900 shadow-2xl sm:w-full'>
-            <img src={logo} alt="" className='w-[450px] h-72 rounded-lg object-cover object-[75%,25%] sm:full'/>
+        <div className='w-[450px] h-72 lg:ml-20 rounded-lg border border-purple-900 shadow-2xl'>
+            <img src={logo} alt="Profile Image" className='w-[450px] h-72 rounded-lg object-cover object-[75%,25%]'/>
         </div>
     </section>
 )

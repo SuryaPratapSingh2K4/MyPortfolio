@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import React from "react"
 import About from "./sections/About"
 import Experience from "./sections/Experience"
+import Skills from "./sections/Skills"
 const App:React.FC = () => {
 
   return (
@@ -13,6 +14,7 @@ const App:React.FC = () => {
           <Hero/>
           <About/>
           <Experience/>
+          <Skills/>
         </main>
       
     </div>
