@@ -15,41 +15,41 @@ export interface Project {
 export const projects: Project[] = [
     {
         title: "Veridia Hiring Platform",
-        content: "",
-        tech: ["React Js","Javascript","REST API","Tailwind CSS","Node Js","Express Js","Mongoose","MongoDB","Nodemailer","AWS S3","React-Router"],
+        content: "Veridia is a full-stack hiring platform that streamlines recruitment by allowing candidates to apply for jobs and recruiters to manage applications with automated email updates and AWS-based resume uploads.",
+        tech: ["React Js","Javascript","REST API","Tailwind CSS","Node Js","Express Js","Mongoose","MongoDB","Nodemailer","AWS S3","React-Router","JWT Auth"],
         repo:"https://github.com/SuryaPratapSingh2K4/Veridia-Hiring-Platform"
     },
     {
         title: "Blood Donation Platform",
         content: "A web app that streamlines donor registration, blood requests, and record management. Enables users to add, update, and delete records with unique IDs for safe and organized data handling.",
-        tech: ["React Js","Javascript","REST API","Tailwind CSS","Node Js","Express Js","Mongoose","MongoDB"],
+        tech: ["React Js","Javascript","REST API","Tailwind CSS","Node Js","Express Js","Mongoose","MongoDB","React-Router"],
         repo: "https://github.com/SuryaPratapSingh2K4/ReduxFunctionKeepNotes/tree/90678abca1ab89847777a16964c5527efd949e95/Blood-Donation",
         video:bloodDonation
     },
     {
         title: "Notes Application",
         content: "A secure MERN-based Notes App where users can log in, create, update, delete, and pin notes. Features JWT authentication, MongoDB storage, and real-time toast notifications for feedback.",
-        tech: ["React Js","Tailwind CSS","Javascript","Node Js","Express Js","Mongoose","Mongo DB","REST API"],
+        tech: ["React Js","Tailwind CSS","Javascript","Node Js","Express Js","Mongoose","Mongo DB","REST API","React-Router","JWT Auth"],
         repo: "https://github.com/SuryaPratapSingh2K4/MERN-Note-App",
         // video:"/assets/"
     },
     {
         title: "Trip Expenser",
-        content: "Group-based expense tracker to split and settle shared trip costs.",
-        tech: ["React Js", "Redux Toolkit", "Tailwind", "localStorage"],
+        content: "A smart group expense tracker that lets users split and settle trip costs easily. Built with React and Redux Toolkit, it ensures clear tracking of who owes whom in real time.",
+        tech: ["React Js", "Redux Toolkit", "Tailwind CSS", "localStorage","React-Router"],
         repo: "https://github.com/SuryaPratapSingh2K4/ReduxFunctionKeepNotes/tree/master/Trip-Expenser",
         video:tripExpenser
     },
     {
         title: "Mega Blog Platform",
-        content: "Blogging app with image uploads, tags, filters, and search functionality.",
+        content: "A modern blogging platform where users can create, edit, and explore posts with tags, filters, and search.",
         tech: ["React Js", "Redux Toolkit", "React-Router", "Tailwind CSS", "localStorage"],
         repo: "https://github.com/SuryaPratapSingh2K4/ReduxFunctionKeepNotes/tree/master/mega-blog",
         video:megaBlog
     },
     {
         title:"To-Do-App",
-        content: "To-Do App is a task management application that helps users organize and prioritize their tasks effectively. Users can create, edit, and delete tasks and mark tasks as complete. All tasks are displayed in a clean and organized layout for easy reading and management.",
+        content: "A simple and efficient task management app to create, edit, and track daily tasks. Users can mark tasks as complete in a clean, organized interface for better productivity.",
         tech: ["React Js","Tailwind CSS","localStorage"],
         repo: "https://github.com/SuryaPratapSingh2K4/ReactJs/tree/master/todolist",
         video:todo

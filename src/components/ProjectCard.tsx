@@ -11,7 +11,7 @@ const ProjectCard:React.FC<Istate> = ({project}) => {
         <div className='rounded-lg border border-purple-900 bg-black/40 overflow-hidden hover:scale-105 hover:shadow-md hover:shadow-purple-500'>
             <div className='flex flex-col p-4'>
                 {project.video ? (
-                    <video src={project.video} controls loop muted className='w-full h-full object-cover rounded-lg'></video>
+                    <video src={project.video} controls loop muted className='w-full h-full object-cover rounded-lg cursor-pointer'></video>
                 ) : (
                     <img src={project.img} alt="" />
                 )}
