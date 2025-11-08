@@ -1,6 +1,6 @@
 export const techStack: string[] = [
     "React.js",
-    "Javascript",
+    "Javascript (ES6+)",
     "Typescript",
     "Node.js",
     "Express.js",
@@ -13,5 +13,9 @@ export const techStack: string[] = [
     "Github",
     "AWS S3",
     "JWT Auth",
-    "REST API"
+    "REST API",
+    "Firebase",
+    "Figma",
+    "After Effects",
+    "Premiere Pro",
 ];

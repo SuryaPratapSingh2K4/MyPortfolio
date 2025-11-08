@@ -4,6 +4,7 @@ import React from "react"
 import About from "./sections/About"
 import Experience from "./sections/Experience"
 import Skills from "./sections/Skills"
+import Projects from "./sections/Projects"
 const App:React.FC = () => {
 
   return (
@@ -15,6 +16,7 @@ const App:React.FC = () => {
           <About/>
           <Experience/>
           <Skills/>
+          <Projects/>
         </main>
       
     </div>

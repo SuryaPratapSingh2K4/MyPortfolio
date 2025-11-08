@@ -9,11 +9,11 @@ const TechGrid:React.FC<Istate> = ({skill}) => {
     return (
         <div className='relative group bg-black/40 border border-purple-900 rounded-lg p-4 flex items-center gap-3 hover:border-purple-800 cursor-pointer'>
             <Code2 className='text-purple-400'/>
-            <div>
-                <p className='text-purple-400 font-medium'>{skill}</p>
-                <p className='text-xs'>Experienced</p>
+            <div className='flex flex-col'>
+                <p className='font-medium text-sm'>{skill}</p>
+                <p className='text-xs text-gray-400'>Experienced</p>
             </div>
-            <div className='absolute inset-0 flex items-center justify-center bg-purple-800 text-white text-sm text-center opacity-0 hover:opacity-100 transition-opacity duration-400 p-4 rounded-lg hover:scale-110 text-[12px]'>
+            <div className='absolute inset-0 flex items-center justify-center bg-purple-800 text-center opacity-0 hover:opacity-100 transition-opacity duration-450 p-4 rounded-lg hover:scale-110 text-[12px] font-semibold'>
                 {`Expert in ${skill} with project level experience.`}
             </div>
         </div>
