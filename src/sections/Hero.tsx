@@ -17,11 +17,11 @@ const Hero:React.FC = () => (
             {/* <img src={logo} alt="Profile Image" className='w-full max-w-5xl sm:w-auto lg:h-72 sm:lg-auto lg:ml-20 rounded-lg object-cover object-[50%,30%] shadow-2xl shadow-purple-500'/> */}
         {/* </div> */}
         <div className="flex justify-center lg:justify-end">
-            <div className="rounded-lg border border-purple-900 shadow-2xl shadow-purple-600/40 overflow-hidden w-full max-w-8xl">
+            <div className="rounded-lg border border-purple-900 shadow-2xl shadow-purple-600/40 overflow-hidden w-full max-w-4xl">
                 <img
                 src={logo}
                 alt="Surya Pratap Singh"
-                className="w-full h-72 object-cover object-[50%,30%]"
+                className="w-full h-80 object-cover object-[50%,30%]"
                 />
             </div>
         </div>
