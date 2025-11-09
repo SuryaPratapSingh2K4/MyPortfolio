@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/Surya-image.jpeg'
 
 const Hero:React.FC = () => (
-    <section id='hero' className='lg:grid lg:grid-cols-2 gap-20 items-center p-16 mt-4'>
+    <section id='hero' className='lg:grid lg:grid-cols-2 gap-20 items-center p-16 mt-12 max-w-6xl mx-auto '>
         <div className='flex flex-col gap-8'>
             <h1 className='text-4xl lg:text-5xl bg-gradient-to-r from-purple-300 to-indigo-300 rounded-md font-bold bg-clip-text text-transparent leading-[1.1]'>
                 Hi, I’m Surya Pratap Singh — a Frontend & MERN Developer.

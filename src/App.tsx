@@ -11,7 +11,7 @@ import Footer from "./components/Footer"
 const App:React.FC = () => {
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-[#05010a] via-[#120c1f] to-[#090011] text-white">
+    <div className="min-h-screen bg-gradient-to-br from-[#05010a] via-[#120c1f] to-[#090011] text-white">
       
         <Navbar/>
         <main>
