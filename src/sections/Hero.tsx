@@ -8,7 +8,7 @@ const Hero: React.FC = () => (
   >
     {/* Left Text Section */}
     <div className="flex flex-col gap-8">
-      <h1 className="text-4xl lg:text-6xl bg-gradient-to-r from-purple-300 to-indigo-300 rounded-md font-bold bg-clip-text text-transparent leading-[1.1]">
+      <h1 className="text-4xl lg:text-8xl bg-gradient-to-r from-purple-300 to-indigo-300 rounded-md font-bold bg-clip-text text-transparent leading-[1.1]">
         Hi, I’m Surya Pratap Singh — a Frontend & MERN Developer.
       </h1>
       <p className="text-lg">
