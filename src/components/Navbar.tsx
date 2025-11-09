@@ -5,20 +5,20 @@ const Navbar: React.FC = () => (
     <div className="w-full px-16 py-4 flex items-center justify-between">
       {/* Left section */}
       <div className="flex flex-row gap-3 items-center">
-        <h1 className="text-lg md:text-xl lg:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-indigo-400">
+        <h1 className="text-lg md:text-xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-indigo-400">
           Surya Pratap Singh
         </h1>
-        <p className="text-xs text-gray-400">Frontend & MERN Developer</p>
+        <p className="text-s text-gray-400">Frontend & MERN Developer</p>
       </div>
 
       {/* Right nav links */}
       <div className="hidden md:flex gap-8">
-        <a className="text-gray-400 text-xs hover:text-purple-300 hover:font-bold" href="#about">About</a>
-        <a className="text-gray-400 text-xs hover:text-purple-300 hover:font-bold" href="#experience">Experience</a>
-        <a className="text-gray-400 text-xs hover:text-purple-300 hover:font-bold" href="#skills">Tech</a>
-        <a className="text-gray-400 text-xs hover:text-purple-300 hover:font-bold" href="#projects">Projects</a>
-        <a className="text-gray-400 text-xs hover:text-purple-300 hover:font-bold" href="#education">Education</a>
-        <a className="text-gray-400 text-xs hover:text-purple-300 hover:font-bold" href="#contact">Contact</a>
+        <a className="text-gray-400 text-s hover:text-purple-300 hover:font-bold" href="#about">About</a>
+        <a className="text-gray-400 text-s hover:text-purple-300 hover:font-bold" href="#experience">Experience</a>
+        <a className="text-gray-400 text-s hover:text-purple-300 hover:font-bold" href="#skills">Tech</a>
+        <a className="text-gray-400 text-s hover:text-purple-300 hover:font-bold" href="#projects">Projects</a>
+        <a className="text-gray-400 text-s hover:text-purple-300 hover:font-bold" href="#education">Education</a>
+        <a className="text-gray-400 text-s hover:text-purple-300 hover:font-bold" href="#contact">Contact</a>
       </div>
     </div>
   </header>
