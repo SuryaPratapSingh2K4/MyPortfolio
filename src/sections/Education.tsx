@@ -4,8 +4,8 @@ import { GraduationCap } from "lucide-react";
 const Education:React.FC = () => {
     return (
         <section id="education" className="p-8 bg-black/40 border border-purple-800 rounded-lg ml-16 mr-16 mt-24">
-        <h3 className="text-3xl font-semibold text-purple-300 mb-4 flex items-center gap-2">
-            <GraduationCap className="text-purple-400" /> Education
+        <h3 className="text-5xl font-semibold text-purple-300 mb-4 flex items-center gap-2">
+            <GraduationCap size={30} className="text-purple-400" /> Education
         </h3>
         <div className='flex flex-col gap-4'>
             <div className='flex flex-col'>

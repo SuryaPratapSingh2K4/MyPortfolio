@@ -4,7 +4,7 @@ import React from 'react'
 const Experience:React.FC = () => {
     return (
         <section id='experience' className='bg-black/40 p-8 mt-24 ml-16 mr-16 border border-purple-900 rounded-lg'>
-            <h1 className='text-4xl text-purple-300 font-semibold flex items-center gap-2'> <Briefcase size={30} className='text-purple-400 mt-1'/> Experience</h1>
+            <h1 className='text-5xl text-purple-300 font-semibold flex items-center gap-2'> <Briefcase size={40} className='text-purple-400 mt-1'/> Experience</h1>
             <div className='mt-6'>
                 <h2 className='font-semibold text-lg'>React Js Developer — Freelance</h2>
                 <h4 className='text-[12px] text-gray-300'>Jan 25 — Present</h4>
