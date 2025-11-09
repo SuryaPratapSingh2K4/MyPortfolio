@@ -14,7 +14,7 @@ const Hero:React.FC = () => (
             </div>
         </div>
         {/* <div className='w-auto mt-8 h-72 lg:w-[450px] lg:ml-20 rounded-lg border border-purple-900 shadow-2xl shadow-purple-500'> */}
-            <img src={logo} alt="Profile Image" className='w-full sm:w-auto lg:h-72 sm:lg-auto lg:ml-20 rounded-lg object-cover object-[50%,30%] shadow-2xl shadow-purple-500'/>
+            <img src={logo} alt="Profile Image" className='w-full sm:w-auto h-full sm:lg-auto lg:ml-20 rounded-lg object-cover object-[50%,30%] shadow-2xl shadow-purple-500'/>
         {/* </div> */}
     </section>
 )
