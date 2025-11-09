@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbar: React.FC = () => (
-  <header className="fixed top-0 left-0 w-full bg-black border-b border-purple-800 z-50">
+  <header className="fixed top-0 left-0 w-full bg-black border-b border-purple-800 z-50 h-20">
     <div className="w-full px-16 py-4 flex items-center justify-between">
       {/* Left section */}
       <div className="flex flex-row gap-3 items-center">

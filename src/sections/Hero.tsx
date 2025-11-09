@@ -8,10 +8,10 @@ const Hero: React.FC = () => (
   >
     {/* Left Text Section */}
     <div className="flex flex-col gap-8">
-      <h1 className="text-4xl lg:text-5xl bg-gradient-to-r from-purple-300 to-indigo-300 rounded-md font-bold bg-clip-text text-transparent leading-[1.1]">
+      <h1 className="text-4xl lg:text-6xl bg-gradient-to-r from-purple-300 to-indigo-300 rounded-md font-bold bg-clip-text text-transparent leading-[1.1]">
         Hi, I’m Surya Pratap Singh — a Frontend & MERN Developer.
       </h1>
-      <p className="text-s">
+      <p className="text-lg">
         I specialize in React.js, Redux Toolkit, and Tailwind CSS, crafting
         responsive UIs that merge performance and design. Currently, I’m
         exploring advanced backend integration with Node.js, Express.js, and
@@ -20,14 +20,14 @@ const Hero: React.FC = () => (
       <div className="flex flex-row gap-4 mb-8">
         <a
           href="#projects"
-          className="text-white bg-gradient-to-r from-purple-600 to-indigo-600 px-4 py-2 hover:scale-105 rounded-md font-semibold"
+          className="text-white bg-gradient-to-r from-purple-600 to-indigo-600 px-6 py-3 hover:scale-105 rounded-md font-semibold"
         >
           View Projects
         </a>
         <a
           href="https://drive.google.com/file/d/1bVJMDrfP42X1KMLXJfzgyUXn1FgkCzNL/view?usp=sharing"
           target="_blank"
-          className="text-white bg-black/40 border border-purple-900 px-4 py-2 rounded-md font-semibold hover:scale-105 hover:bg-purple-700/20"
+          className="text-white bg-black/40 border border-purple-900 px-6 py-3 rounded-md font-semibold hover:scale-105 hover:bg-purple-700/20"
         >
           Download Resume
         </a>
