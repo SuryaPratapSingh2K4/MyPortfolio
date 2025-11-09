@@ -4,7 +4,7 @@ import logo from '../assets/Surya-image.jpeg'
 const Hero: React.FC = () => (
   <section
     id="hero"
-    className="lg:grid lg:grid-cols-2 gap-20 items-center p-16 mt-12 w-full"
+    className="lg:grid lg:grid-cols-2 gap-20 items-center p-16 mt-20 w-full"
   >
     {/* Left Text Section */}
     <div className="flex flex-col gap-8">
@@ -36,7 +36,7 @@ const Hero: React.FC = () => (
 
     {/* Right Image Section */}
     <div className="flex justify-center lg:justify-end">
-      <div className="rounded-lg border border-purple-900 shadow-2xl shadow-purple-600/40 overflow-hidden w-[400px] sm:w-[450px] lg:w-[550px]">
+      <div className="rounded-lg border border-purple-900 shadow-2xl shadow-purple-600/40 overflow-hidden w-[400px] sm:w-[450px] lg:w-[600px]">
         <img
           src={logo}
           alt="Surya Pratap Singh"
